@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 counter = 0
-def turn_count
+def turn_count(display_board)
   display_board.each do |i|
     if i == "X"
       counter += 1

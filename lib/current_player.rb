@@ -17,6 +17,6 @@ def turn_count(display_board)
 return counter
 end
 
-# def current_player
-#
-# end
+def current_player
+
+end

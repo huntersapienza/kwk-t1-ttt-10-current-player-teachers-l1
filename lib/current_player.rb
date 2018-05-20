@@ -13,6 +13,7 @@ def turn_count(display_board)
     if i == "X" || i == "O"
       counter += 1
     end
+  end
 end
 puts counter
 # def current_player

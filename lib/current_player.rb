@@ -15,7 +15,6 @@ def turn_count(display_board)
     elsif i == "O"
       counter += 1
     else
-      counter += 0
     end
   end
 end

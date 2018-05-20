@@ -7,7 +7,7 @@ def turn_count
       counter += 1
     else
       counter += 0
-  end
+    end
 end
 
 def current_player

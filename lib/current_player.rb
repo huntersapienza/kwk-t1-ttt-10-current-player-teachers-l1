@@ -10,13 +10,9 @@ end
 def turn_count(display_board)
   counter = 0
   display_board.each do |i|
-    if i == "X"
+    if i == "X" || i == "O"
       counter += 1
-    elsif i == "O"
-      counter += 1
-    else
     end
-  end
 end
 puts counter
 # def current_player

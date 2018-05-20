@@ -18,5 +18,8 @@ return counter
 end
 
 def current_player
-
+  if counter % 2
+    return "X"
+  else
+    return "O"
 end

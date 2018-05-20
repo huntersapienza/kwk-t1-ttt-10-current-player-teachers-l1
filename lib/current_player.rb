@@ -17,7 +17,7 @@ end
 #       counter += 0
 #     end
 # end
-
+puts counter
 # def current_player
 #
 # end
